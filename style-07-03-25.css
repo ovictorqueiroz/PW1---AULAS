@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: greenyellow;
+}
+
+.cabecalho{
+    padding: 10px;
+    color: white;
+    background-image: url(https://w0.peakpx.com/wallpaper/790/10/HD-wallpaper-code-programming-text-red-black-dual-wide-background-code-programmer.jpg);
+    background-size: cover;
+}
+.cabecalho h1{
+    font-size: 50px;
+}
+
+.cabecalho p {
+    font-size: 25px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    size: 10%;
+}
+.sobre-mim{
+    display: flex;
+    background-color: blue;
+    padding: 20px 0;
+}
+
+.sobre-mim .container{
+    display: flex;
+    background-color: yellowgreen;
+    padding: 20px 0;
+}
